@@ -1,0 +1,90 @@
+
+
+
+#logo {
+    width: 65px;
+    height: 65px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+/* ... Votre code CSS actuel ... */
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.menu-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.menu-image img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 80%; /* Ajustez la largeur du texte au besoin */
+}
+
+a {
+    float: right;
+}
+
+
+#insta, #facebook {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    padding: 10px 20px 20px 0;
+}
+
+.lien {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: -500px;
+}
+
+#mention {
+    background-color: #388e3c;
+    padding: 20px;
+    width: 100%;
+    text-align: center
+}
+
+
+
+/* .split1,
+.split2,
+.split3,
+.split4,
+.split5 {
+    background-color: #388e3c;
+    display: grid;
+    height: 300px;  
+    overflow: hidden;  
+}
+
+#image1,
+#image2,
+#image3,
+#image4,
+#image5,
+#image6,
+#image7,
+#image8,
+#image9,
+#image10 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;  
+} */
+

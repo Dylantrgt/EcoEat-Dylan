@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+    <titre>Questionnaire Dylan</titre>
+    <question> 1: Quelle est l’utilité de l’élément ?
+        <reponse>
+            Un élément sert à déterminer la structure que l'on va appliquer à notre page 
+        </reponse>
+    </question>
+    <question> 2: Définir la sémantique du web.
+        <reponse>
+            La sémentique donne du sens aux infos données, elle sert à etre plus précise en rapport aux réponses demandées.
+        </reponse>
+    </question>
+    <question> 3: Citez des éléments du DOM se référant au contenu textuel d’une structure html.
+        <reponse>
+            
+        </reponse>
+    </question>
+    <question> 4: Qu’est-ce qu’un Framework css ?
+        <reponse>
+            Un Famework est une bibliotheque css qu'on lie à notre html et qu'on peut faire appel dans le css pour l'appliquer, il en existe plusieurs comme Bootstrapp, Materialize, Tailwind ect.
+
+        </reponse>
+    </question>
+    <question> 5: Quels sont les points communs et les différences entre le Html et le Xml ?
+        <reponse>
+            Le point commuun entre HTML et XML est qu'ils utilisent la meme structure et la difference est qu'en html les balises sont définis alors 
+            qu'en xml les noms des balises sont personnalisable. Xml est plus souvent utiliser pour transporter des données entre une application et les serveurs alors u'HTML est utiliser pour
+            structurer une page web ou une application. 
+        </reponse>
+    </question>
+    <question> 6: Que contient les éléments head et body ? Quelle est leur relation avec l’objet html ?
+        <reponse>
+            l'élément head sert pour le navigateur, on y mettra les metas ainsi que le lien vers le CSS et les scripts.
+            body contiendras toutes les balises qui servent à créer un site ou une application
+        </reponse>
+    </question>
+    <question> 7: Citez 3 protocoles applicatifs du TCP/IP.
+        <reponse>
+            
+        </reponse>
+    </question>
+    <question> 8:  Décrire en quelques lignes le modèle client-serveur
+        <reponse>
+            Le client utilise un navigateur passe par un port TCP/IP pour envoyer une requete http au serveur le DNS change l'IP en nom de domaine,
+            le serveur est compartimenté en plusieurs sites hébergés, le site ciblé par la requete est envoyé par le port TCP/IP en HTML au client qui le reçois sur son navigateur
+
+        </reponse>
+    </question>
+    <question> 9: Comment mettre un commentaire en html5 et en CSS ?
+        <reponse>
+            Pour mettre en commentaire en html5 on utilise <!-- -->
+            Pour mettre en commentaire en CSS on utilise /* */ ou //
+        </reponse>
+    </question>
+    <question> 10: Quel est le rôle du W3C ?
+        <reponse>
+
+            
+        </reponse>
+    </question>
+
+
+
+</questionnaire>

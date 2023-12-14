@@ -1,0 +1,209 @@
+body {
+    padding: 30px 30px;
+    display: grid;
+}
+
+main {
+    background-color: #a5d6a7;
+    border-radius: 30px;
+    padding: 30px 30px;
+    display: grid;
+}
+
+nav {
+    background-color: #388e3c !important;
+    border-radius: 20px;
+}
+
+.nav-wrapper{
+    border-radius: 20px;
+}
+
+/* strong {
+    font-weight: 900;
+} */
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #1b5e20;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+#menu {
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr ;
+}
+
+.fondsplit {
+    background-color: #388e3c;
+    display: grid;
+    padding: 50px;
+}
+
+.container-split {
+    background-color: #388e3c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 30px;
+    height: 400px;
+}
+
+
+.split1, .split2, .split3, .split4, .split5{
+    background-color: #388e3c;
+    display: grid;
+}
+
+ #un, #deux, #trois, #quatre, #cinq, #six, #sept, #huit, #neuf, #dix{
+    background-color: rgb(100, 214, 100, 0.5);
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    margin-top: 25%;
+} 
+
+ #image1 {
+    background-image: url(images/1\ salade\ méditéranienne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#image2 {
+    background-image: url(images/2recette-vegan-bowl-quinoa-legumes-rotis.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#image3 {
+    background-image: url(images/3\ wrap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image4 {
+    background-image: url(images/4\ curry\ lentilles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image5 {
+    background-image: url(images/5\ pock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image6 {
+    background-image: url(images/6\ pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image7 {
+    background-image: url(images/7\ tacos.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image8 {
+    background-image: url(images/8\ burger.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image9 {
+    background-image: url(images/9\ ravioli.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+#image10 {
+    background-image: url(images/10\ pates.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#commande {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* bas de page */
+a {
+    float: right;
+}
+
+.reseaux {
+    place-items: center;
+    display: flex;
+}
+
+.reseaux img {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.lien {
+    margin-top: 50px;
+}
+
+/* mentions legal */
+#mention {
+    background-color: #388e3c;
+    border-radius: 10px;
+    padding: 20px;
+    width: 95%;
+    margin-left: 45px;
+    text-align: center
+}
+
+#textarea1, #email, #prenom, #nom{
+    border-bottom: 1px solid #388e3c !important;
+    -webkit-box-shadow: 0 1px 0 0 #388e3c !important;
+    box-shadow: 0 1px 0 0 #388e3c !important;
+} 
+
+/* .input-field input[type="text"]:focus + label i,
+.input-field input[type="email"]:focus + label i {
+    color: #1b5e20 !important;
+} */
+
+/*c'est le bordel dans mon CSS !*/
